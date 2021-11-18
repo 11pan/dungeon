@@ -1,0 +1,33 @@
+  -- v0.1 --
+Initial Release
+
+
+  -- v0.1.1 --
+Bug Fixes
+ - Fixed the extra binding for the bolt release
+
+
+  -- v0.2 --
+No Clip
+ - Added a persistent noclip mode
+ - Noclip now turns off when you drop the tool
+
+New Features
+ - Added a console that follows the player for debugging and sending messages
+ - Added a settings tab for controlling global map settings
+   - Highlight Spawns
+   - Visualize pennable materials (note: other things affect pen, this just shows precisely what the map maker has set as pennable)
+   - You can now disable nade trails
+ - Added the ability to spawn stationary bots (but not despawn them yet)
+
+Bug Fixes
+ - Fixed Mirage not loading after the update
+
+Other Changes
+ - Moved the spray tester into its own room so I can add other rooms like it
+ - Moved the selected option to the top of the tool so it's easier to see when flipping through
+ - Deleted the TDM gamemode which has several effects but might be buggy:
+    - Freezes the round timer in place
+    - Makes it impossible to die (when you reach 0 health your old body ragdolls but you're still there in a limbo 0 health state)
+    - Prevents guns / util from despawning (though I might have to revert that due to lag, we'll see)
+    - Turns off bot AI
