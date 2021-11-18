@@ -1,5 +1,4 @@
 # 11pan's Dungeon
-# dungeon
 11pan's Dungeon Editor Files
 
 This is released with no support whatsoever.
